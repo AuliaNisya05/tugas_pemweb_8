@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(233, 215, 56);
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 15vh;
+    height: 70vh;
+}
+
+
+header,
+footer {
+    height: 20vh;
+    background-color: rgb(107, 236, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 60vh;
+    display: flex;
+}
+
+article {
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: rgb(233, 82, 63);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
